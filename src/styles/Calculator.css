@@ -1,0 +1,45 @@
+
+.calculator {
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+
+.display-screen .form-control {
+  font-size: 2em;
+  text-align: right;
+  border: none;
+  background-color: #f8f9fa;
+}
+
+.result-display {
+  min-height: 40px;
+  font-weight: bold;
+}
+
+.buttons .btn {
+  height: 60px;
+  font-size: 1.5em;
+  margin: 5px;
+}
+
+.btn-outline-teal {
+  color: #20c997;
+  border-color: #20c997;
+}
+
+.btn-outline-teal:hover {
+  color: #fff;
+  background-color: #20c997;
+  border-color: #20c997;
+}
+
+.number-button {
+  border: 2px solid #20c997; /* Teal outline */
+}
+
+.advanced-buttons {
+  border-top: 1px solid #dee2e6;
+  padding-top: 10px;
+  margin-top: 10px;
+}
